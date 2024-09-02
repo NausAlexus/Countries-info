@@ -1,0 +1,1 @@
+Mini application where you can find brief information about countries.

@@ -1,0 +1,28 @@
+.main {
+    height: 600px;
+    width: 400px;
+    background-color: rgb(236, 233, 233);
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    border-radius: 50px;
+    box-shadow: 9px 10px 17px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 9px 10px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 17px 0px rgba(0,0,0,0.75);
+    overflow-y: scroll;
+}
+
+.main::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+}
+ 
+.main::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #0000004d;
+}
+ 
+.main::-webkit-scrollbar-track {
+    margin: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+}

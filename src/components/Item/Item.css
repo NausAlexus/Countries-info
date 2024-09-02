@@ -1,0 +1,33 @@
+.item-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 50px;
+    cursor: pointer;
+}
+
+.item-container:hover {
+    .image {
+        transform: translateY(-4px) scale(1.1);
+        box-shadow: 9px 10px 17px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 9px 10px 17px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 9px 10px 17px 0px rgba(0,0,0,0.75);
+    }
+    .name {
+        font-weight: 900;
+        color: rgb(172, 65, 65);
+    }
+}
+
+.image {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background: rgb(255, 255, 255);
+    transition: all 0.5s ease;
+}
+
+.name {
+    font-size: 16px;
+    margin-left: 20px;
+    transition: all 0.5s ease;
+}
